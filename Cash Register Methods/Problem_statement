@@ -1,0 +1,55 @@
+Your task is to:
+
+    Define a CashRegister class.
+
+    Implement the methods of the CashRegister class based on the required functionality.
+
+
+Requirements:
+
+Methods
+
+    The cash register should be able to:
+
+        Add a product to a purchase.
+
+        The cashier should be able to specify how many items of the same product will be purchased.
+
+            By default, this value should be 1. 
+
+        Show the list of products in the current purchase.
+
+        Remove a product from a purchase.
+
+        Update the price of a product after it has been added to the purchase.
+
+        Find the subtotal of the purchase (before taxes).
+
+        Find the total taxes for the purchase (assume that the store will charge 5% of the total purchase in taxes).
+
+        Find the total amount of a purchase.
+
+        Clear the previous purchase to start a new one. 
+
+    Each one of the previous items should be implemented as a method in the class.
+
+    Create at least three products with the format specified below.
+
+    Call each one of these methods at least once with the appropriate arguments.
+
+    Check if the output is correct and include it in your submission. 
+
+Attribute
+
+    The cash register should have the name of the cashier assigned to the cash register as an instance attribute.
+
+Products
+
+    A product should be represented as a dictionary with two key-value pairs (a key-value pair for the name of the product and another key-value pair for its price).
+
+    For example: {"name": "Pizza", "price": 10.34}
+
+
+Suggestion:
+
+You could store products in a dictionary and add, remove, or update them. This dictionary could be an instance attribute of the cash register.
