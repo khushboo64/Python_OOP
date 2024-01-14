@@ -135,5 +135,3 @@ game = DiceGame(my_player, computer_player)
  
 # Start the game logic
 game.play()
-
-
