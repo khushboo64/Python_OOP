@@ -1,0 +1,40 @@
+you work for a software development company that develops software for vending machines in a school district and in a local hospital.
+
+
+Your task is to:
+
+Customize the behavior of the VendingMachine class with method inheritance and method overriding.
+
+To do this, you will define two subclasses: HospitalVendingMachine and SchoolVendingMachine. They will inherit from VendingMachine (this class is already defined in the Python file that you will download for this project).
+
+Requirements for both types of vending machines:
+
+The subclasses must have a custom greeting message for the user. This message should be displayed before the list of available products.
+
+The code must override the sales_menu method in these two subclasses.
+
+They should print their custom message (shown below) before calling the sales_menu method of the VendingMachine superclass.
+
+Custom messages:
+
+For SchoolVendingMachine:
+
+Welcome to our School Vending Machine 
+We hope you have a great day full of learning!
+For HospitalVendingMachine:
+
+Welcome to our Hospital Vending Machine
+We hope you are feeling better today!
+The subclass should have a class attribute snack_prices. This attribute should replace the value defined in the superclass. You can customize the prices (values) to your liking but please keep the structure of the original dictionary.
+
+Override the find_snack_price method in both subclasses to make them use the class attribute that corresponds to the subclass.
+
+Requirements for SchoolVendingMachine:
+
+Define a class attribute called student_debt (a dictionary with students' names as the keys and their corresponding debt as values).
+
+Define a method print_student_debt that takes the name of the student as argument and prints the value of the debt.
+
+Requirements for HospitalVendingMachine:
+
+Define a method called print_days_until_maintenance that prints a string with the number of days remaining until the next scheduled maintenance (this is an instance attribute of the superclass).
